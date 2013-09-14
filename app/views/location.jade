@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .title topfoos
+  .message Want to tell 
+    b= num_players
+    |  people that you&rsquo;re here to play?
+  a.button(href="/l/select") Here to play
+  .message Want to know when somebody else is looking for a game?
+  a.button(href="/l/select") I want to know
+  footer know your table
